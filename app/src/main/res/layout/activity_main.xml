@@ -14,20 +14,28 @@
 
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <RadioButton
-        android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="Daya"/>
     <RadioButton
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Saugat"/>
+        android:text="Saugat"
+        android:layout_weight="1"/>
     <RadioButton
-        android:layout_width="100dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bhuwan"/>
+        android:text="Bhuwan"
+        android:layout_weight="1"/>
     </RadioGroup>
     </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        />
 
 </LinearLayout>
